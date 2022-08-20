@@ -1,0 +1,303 @@
+main {
+    position: relative;
+}
+
+/* --------------------------------------------Section 1---------------------------------------------- */
+main .section-1 img {
+    width: 100%;
+    height: 60rem;
+}
+
+main .section-1 {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+main .section-1>.content-on-hero-img {
+    position: absolute;
+    top: 0;
+    float: left;
+    background-image: linear-gradient(to right, rgba(54, 101, 221, 0.9), rgba(88, 139, 240, 0.2));
+    color: #f1f1f1;
+    width: 100%;
+    padding: 18% 45% 16% 10%;
+    box-sizing: border-box;
+}
+
+main .section-1>.content-on-hero-img h1 {
+    font-size: 60px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+main .section-1>.content-on-hero-img p {
+    font-size: large;
+    padding-top: 6.6%;
+    line-height: 25px;
+}
+
+main .section-1>.content-on-hero-img button {
+    margin-top: 10%;
+    padding: 15px 20px;
+    font-size: large;
+    outline: none;
+    border: none;
+}
+
+main .section-1>.content-on-hero-img .start-btn {
+    color: rgba(11, 71, 222, 0.9);
+}
+
+main .section-1>.content-on-hero-img .read-more {
+    background-color: rgba(11, 71, 222, 0.9);
+    color: white;
+}
+
+/* --------------------------------------------Section 2---------------------------------------------- */
+main .section-2 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: rgb(231, 228, 224);
+}
+
+main .section-2 h2 {
+    padding: 1.5%;
+    text-align: center;
+    color: black;
+}
+
+main .section-2 .section-2-container {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+main .section-2 .section-2-container img {
+    /* width: 100%; */
+    width: 13%;
+    height: fit-content;
+}
+
+/* -------------------------------Section 3------------------------- */
+main .section-3 {
+    padding: 8% 8% 0%;
+}
+
+main .section-3>h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+main .section-3>p {
+    text-align: center;
+    padding: 3% 25% 0;
+    font-size: large;
+    line-height: 20px;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+}
+
+main .section-3 .section-3-container {
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+main .section-3 .elementer-column-section-3 {
+    background-color: rgb(43, 87, 199);
+    width: 31.5%;
+    padding: 5% 5%;
+}
+
+main .section-3 .elementer-column-section-3>.elementer-divider {
+    width: 40px;
+    height: 1px;
+    background-color: rgb(9, 134, 218);
+    /* margin-top: 5%; */
+    /* border-left: 1px solid rgba(155, 161, 175, 0.5); */
+    /* width: px; */
+}
+
+
+main .section-3 .elementer-column-section-3>h1 {
+    font-size: 40px;
+    color: white;
+    padding: 10% 0;
+}
+
+main .section-3 .elementer-column-section-3>p {
+    padding-bottom: 8%;
+    line-height: 30px;
+    font-size: large;
+    color: white;
+}
+
+main .section-3 .elementer-column-section-3>button {
+    margin-top: 6.5%;
+    padding: 15px 20px;
+    font-size: large;
+    outline: none;
+    border: 1px solid white;
+    background-color: rgb(30, 82, 213);
+    color: white;
+}
+
+/* --------------------------------------------Section 4---------------------------------------------- */
+main .section-4 {
+    padding: 0 8% 5%;
+}
+
+main .section-4 .section-4-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section-4 .section-4-container .elementer-column-section-4 {
+    background-color: rgb(231, 228, 224);
+    width: 31.5%;
+}
+
+main .section-4 .section-4-container .column-1-section-4 {
+    padding: 5% 5%;
+}
+
+main .section-4 .section-4-container .column-2-section-4>img {
+    margin-top: 16.5%;
+    width: 30%;
+    height: 20rem;
+}
+
+main .section-4 .section-4-container .elementer-column-section-4 h1 {
+    font-size: 40px;
+    padding: 10% 0;
+}
+
+main .section-4 .section-4-container .elementer-column-section-4 p {
+    padding-bottom: 8%;
+    line-height: 30px;
+    font-size: large;
+}
+
+main .section-4 .section-4-container .elementer-column-section-4 button {
+    padding: 15px 20px;
+    font-size: large;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(30, 82, 213);
+}
+
+main .section-4 .section-4-container .column-2-section-4 {
+    display: flex;
+    justify-content: space-between;
+    width: 65.5%;
+    overflow: hidden;
+}
+
+main .section-4 .section-4-container .column-2-section-4 .column-2-section-4-container {
+    padding: 5% 5%;
+}
+
+/* --------------------------------------------Section 5---------------------------------------------- */
+main .section-5 {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+main .section-5 img {
+    width: 100%;
+    height: 40rem;
+}
+
+main .section-5>.content-on-section-5-img {
+    position: absolute;
+    top: 0;
+    float: right;
+    background-image: linear-gradient(to left, rgba(9, 75, 241, 1), rgba(88, 139, 240, 0.2));
+    color: #f1f1f1;
+    width: 100%;
+    padding: 15% 10% 11.2% 51%;
+}
+
+main .section-5>.content-on-section-5-img>h1 {
+    font-size: 40px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+main .section-5>.content-on-section-5-img>p {
+    font-size: medium;
+    padding: 6.6% 0;
+    line-height: 25px;
+}
+
+main .section-5 .content-on-section-5-img .elementer-divider {
+    width: 60px;
+    height: 1px;
+    background-color: white;
+}
+
+main .section-6 {
+    position: relative;
+    padding: 10% 8%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 244, 247);
+}
+
+main .section-6 img{
+    height: 35rem;
+}
+
+main .section-6 .content-on-section-6 {
+    padding: 4% 5%;
+    background-color: white;
+}
+
+main .section-6 .content-on-section-6 h1{
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+main .section-6 .content-on-section-6 p{
+    font-size: medium;
+    padding: 1% 0;
+    line-height: 25px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+main .section-6 .content-on-section-6 button{
+    margin-top: 7%;
+    padding: 15px 20px;
+    font-size: large;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(30, 82, 213);
+}
+
+main .section-7{
+    padding: 7% 20%;
+    background-color: rgba(9, 75, 241, 1);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+    padding: 2.5% 5%;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat',sans-serif;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    top: 0;
+    z-index: 0;
+}
+
+.company-logo{
+    padding: 1%;
+    padding-left: 8%;
+}
+
+.nav-container{
+    padding-right: 8%;
+}
+
+.nav-container a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    justify-content: space-between;
+    padding: 36.6px 10px;
+} 
